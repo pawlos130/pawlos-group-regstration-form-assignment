@@ -1,0 +1,71 @@
+<html>
+<head> 
+    <style>
+	 img {
+            width: 10%;
+            height: 100px;
+        }
+        body { background-color:rgba(155,255,105,0.7);: 200px; }
+        form {box-shadow:0 250px 45px rgba(255,255,16,0.50);border-radius:20px;border:3px solid rgba(233,105,255,0.4); max-width: 400px; margin: 100PX; }
+        label { display: block; margin-right: 1px; }
+        input, select { width: 50%; padding: 5px; margin-right: 3px; }
+        .checkbox-group { margin: 10px 10; }
+        button { margin-top: 15px; padding: 10px; background: #390; color: white; border: none; cursor: pointer; }
+        button[type="reset"] { background: #777; }
+    </style>
+     
+</head>
+<body>
+<h2><left><a href="prepared by.html">next page</a></center></left></p>
+<center><img src="1000000681.jpg"></img></center>
+    <H1><center>WRO/SIHEEN PTC</H1></center>
+    <h2><center>OFFICE OF REGSTRAL</h2></center>
+	<center><H3>STUDENT REGSTRATION</H3></center>
+    <center><form action="regster.php" method="post">
+        <h3><label for="first_name">First name:</label></h3>
+        <input type="text" id="first_name" name="first_name" required><br>
+
+        <h3><label for="middle_name">Middle name:</label></h3>
+        <input type="text" id="middle_name" name="middle_name"><br>
+
+        <h3><label for="last_name">Last name:</label></h3>
+        <input type="text" id="last_name" name="last_name" required><br>
+
+        <div class="radio-group">
+            <h2>Sex<br></h2>
+            <b><label for="male">Male</label><br>
+           <h3> <input type="radio" id="male" name="sex" value="Male" checked></h3>
+		    <label for="female">Female</label><br>
+            <h3><input type="radio" id="female" name="sex" value="Female"></h3>
+           
+        </div>
+
+        <div class="checkbox-group">
+            <h2><label>Department:</label><br></h2>
+			<label for="mudden">AUTO</label><br>
+			
+            <h3><input type="checkbox" id="AUTO" name="department" value="AUTO"></h3>
+			<label for="widden">WDDBA</label><br>
+           <h3> <input type="checkbox" id="widden" name="department" value="WIDDEN"></h3>
+                        <label for="hms">HNS</label><br>
+            <h3><input type="checkbox" id="hms" name="department" value="Hns"></h3>
+            <label for="hms">GARMENT</label><br><h3>
+			
+			<h3><input type="checkbox" id="hms" name="department" value="Hns"></h3>
+			            <label for="hms">TEXTITLE</label><br><h3>
+			<input type="checkbox" id="hms" name="department" value="Hns"></h3>
+<label for="hms">ELECTRICTY</label><br>
+			<input type="checkbox" id="hms" name="department" value="Hns"></h3>
+            <label for="hms"></label><br>
+
+        </div>
+
+        <h3><label for="reg_date">Registration Date:</label></h3>
+        <input type="date" id="reg_date" name="reg_date" required><br>
+
+        <button type="submit">Submit</button><br>
+        <button type="reset">Cancel</button>
+    </form>
+	</center>
+</body>
+</html>
